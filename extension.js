@@ -35,8 +35,8 @@
 
          */
 
-        bot.commands.PuukjeensCommand = {
-            command: 'Puukjeens',  //The command to be called. With the standard command literal this would be: !bacon
+        bot.commands.puukjeensCommand = {
+            command: 'puukjeens',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
@@ -119,6 +119,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Puukjeens/Robotinsh/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Puukjeens/Robotinsh/master/basicBot", extend);
 
 }).call(this);
