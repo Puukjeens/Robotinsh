@@ -56,12 +56,12 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Heal Robotiņš",
         language: "english",
         chatLink: "https://rawgit.com/Puukjeens/Robotinsh/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 50, // 1-200
+        startupVolume: 100, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         smartSkip: true,
         cmdDeletion: true,
