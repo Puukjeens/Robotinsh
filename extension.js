@@ -119,6 +119,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Puukjeens/Robotinsh/master/basicBot", extend);
+    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot", extend);
 
 }).call(this);
